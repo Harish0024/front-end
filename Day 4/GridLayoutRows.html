@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            gridlayout
+        </title>
+        <style>
+        #grid1{
+            display: grid;
+            grid-template-rows: 110px 110px 110px ;
+            grid-auto-columns: 110px 100px 100px ;
+            grid-gap: 8px;
+            grid-auto-flow: column;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="grid1">
+            <div style="width:100px;height: 100px;background-color: maroon;">
+                div 1
+            </div>
+            <div style="width:100px;height: 100px;background-color: rebeccapurple;">
+                div 2
+            </div>
+            <div style="width:100px;height: 100px;background-color: rgb(15, 14, 15);">
+                div 3
+            </div>
+            <div style="width:100px;height: 100px;background-color:rgb(255, 0, 0);">
+                div 4
+            </div>
+            <div style="width:100px;height: 100px;background-color: yellow;">
+
+                div 5
+            </div>
+            <br>
+            <input type="button" value="click"/>
+            <input type="button" value="click"/>
+            <input type="text" placeholder="enter name"/>
+            <input type="submit" value="Add" placeholder="Enter name"/>
+        </div>
+    </body>
+</html>
